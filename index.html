@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Andy Liu | Portfolio</title>
+
+    <!--link bootstrap from CDN, alternatively I could have downloaded bootstrap but this is way easier-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- icons from fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+
+    <!--top fixed navbar-->
+
+    <nav id="my_navbar" class="navbar navbar-expand-md fixed-top justify-content-center ">
+
+        <a class="navbar-brand" href="#">Andy Liu </a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#targetnavbar">
+            <i class="fas fa-bars" ></i>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="targetnavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#myexperience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#myprojects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactme">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="ncee-resume-Andy-Liu-data-entry.pdf">Resume</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+
+
+
+
+    <!--header with name and picture-->
+    <div  id="my_header" class="container-fluid" >
+        <h1 id="headername" class="display-1" >Hi! I'm Andy Liu</h1>
+        <div class="container" >
+            <img id="profilepic" src="images/profile.jpg" class="rounded-circle " alt="A picture of Andy Liu">
+        </div>
+    </div>
+
+
+    <!-- about me section -->
+    <div id="aboutme" class="container-fluid">
+        <h1 class="display-2">About me</h1>
+        <h3 class="font-weight-light">I am a motivated student from Windsor, ON. I enjoy programming and I am always eager to learn!</h3>
+
+        <!-- 2 columns about education and hobbies -->
+        <div class="container-fluid">
+            <div id="aboutmecolumns" class="row">
+                <div class="col-lg">
+                    <div class="card">
+                        <img  id="looimage" class="card-img-top" src="images/meinwaterloo.jpg">
+                        <div class="card-body" >
+                            <h4 class="card-title display-3">Education</h4>
+                            <p class="card-text">I am a recent graduate from Vincent Massey Secondary School. I will be studying Computer Science and Business Administration at the University of Waterloo between 2021-2026.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card">
+
+                        <div class="card-body" >
+                            <h4 class="card-title display-3">Achievements</h4>
+                            <p class="card-text">I graduated Vincent Massey with:</p>
+                            <ul class="card-text">
+                                <li>Academic Award</li>
+                                <li>Clubs, Services and Activities Award</li>
+                            </ul>
+                            <p class="card-text">I also competed in several math and programming contests. Some of my proudest achievements are:</p>
+                            <ul class="card-text">
+                                <li>41/75, 2021 Senior Canadian Computing Contest</li>
+                                <li>Rank 22/438 in Ontario, 2020 ECOO Programming Contest</li>
+                                <li>Honor Roll Southwest Ontario, Canadian Open Mathematics Challenge 2020</li>
+                                <li>144/150, Honor roll group II, Fermat 2020</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="spacer"></div>
+
+    <!--experience section-->
+    <div id="myexperience" class="container-fluid">
+        <h1 class="display-2 text-center">Experience</h1>
+
+        <div class="row">
+            <div class="col-md">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Science Olympiad Club</h4>
+                        <p class="card-text">Club Leader</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Private Math Tutor</h4>
+                        <p class="card-text">Paid, high school level</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>CS Club</h4>
+                        <p class="card-text">Member</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-md">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>DECA</h4>
+                        <p class="card-text">Competitor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Debate Club</h4>
+                        <p class="card-text">Member</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="spacer"></div>
+
+    <!-- Side projets -->
+    <div id="myprojects" class="container-fluid">
+        <h1 class="display-2 text-center">Projects</h1>
+
+        <!-- bootstrap carousel but instead of images im putting cards instead -->
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+
+            <ul class="carousel-indicators">
+                <li data-target="#myprojects" data-slide-to="0" class="active"></li>
+                <li data-target="#myprojects" data-slide-to="1"></li>
+                <li data-target="#myprojects" data-slide-to="2"></li>
+                <li data-target="#myprojects" data-slide-to="3"></li>
+            </ul>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card">
+                        <img class="card-img-top" src="images/quarantravel.png">
+                        <div class="card-body" >
+                            <h4 class="card-title display-3">Quarantravel</h4>
+                            <p class="card-text">MasseyHacks XI Submission</p>
+                            <a href="https://github.com/andy-liuu/Pandemic-tour-guide" target="_blank" class="btn btn-primary">See Github</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img class="card-img-top" src="images/final12game.png">
+                        <div class="card-body" >
+                            <h4 class="card-title display-3">Space Dungeon</h4>
+                            <p class="card-text">ICS4U Final Project</p>
+                            <a href="https://github.com/andy-liuu/Dungeon-Crawler-Game" target="_blank" class="btn btn-primary">See Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img class="card-img-top" src="images/paintproject.png">
+                        <div class="card-body" >
+                            <h4 class="card-title display-3">Paint Project</h4>
+                            <p class="card-text">ICS3U Midterm Project</p>
+                            <a href="https://github.com/andy-liuu/Paint-Project" target="_blank" class="btn btn-primary">See Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img class="card-img-top" src="images/final11.png">
+                        <div class="card-body" >
+                            <h4 class="card-title display-3">Tank Game</h4>
+                            <p class="card-text">ICS3U Final Project</p>
+                            <a href="https://github.com/andy-liuu/-Shellshock-Tank-Game" target="_blank" class="btn btn-primary">See Github</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <a class="carousel-control-prev" href="#mycarousel" data-slide="prev">
+                <i class="fas fa-chevron-left" style="color:#a9a9a9; font-size: 48px"></i>
+            </a>
+            <a class="carousel-control-next" href="#mycarousel" data-slide="next">
+                <i class="fas fa-chevron-right" style="color:#a9a9a9; font-size: 48px"></i>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="spacer"></div>
+
+    <!-- contact logos -->
+    <div id="contactme" class="container-fluid">
+        <h1 class="display-3 text-center">Contact</h1>
+
+        <a target="_blank" href="https://www.instagram.com/andyliu.png/"><i class="fab fa-instagram"></i></a>
+        <span>&nbsp &nbsp &nbsp</span>
+        <a target="_blank" href="mailto:aliu3160@gmail.com"> <i class="far fa-envelope"></i> </a>
+        <span>&nbsp &nbsp &nbsp</span>
+        <a target="_blank" href="https://github.com/andy-liuu"> <i class="fab fa-github"></i> </a>
+
+        <p>&copy Andy Liu 2021</p>
+
+    </div>
+
+    <div style="height: 50px"></div>
+
+
+
+
+
+
+
+
+    <!--javascript that I made to make the website better-->
+    <script src="index.js"></script>
+
+    <!--some bootstrap requires javascript plugins to function, also through CDN-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

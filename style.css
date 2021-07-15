@@ -1,0 +1,198 @@
+
+/*starting with required css to let the site format correctly*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*
+:not(body){
+    border: 1px solid red;
+}
+
+ */
+
+
+
+.spacer{
+    height: 15vh;
+}
+
+
+body>.container-fluid{
+    width: 90%;
+    scroll-margin-top: 5vh;/*dodgy hack to not be covered by nav bar*/
+}
+
+#my_header{
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.display-1{
+    font-size: calc(3rem + 5vw);
+}
+.display-2{
+    font-size: calc(2.5rem + 4.5vw);
+}
+.display-3{
+    font-size: calc(1.5rem + 2vw);
+}
+.display-4{
+    font-size: calc(0.5rem + 1.5vw);
+}
+
+.font-weight-light{
+    font-size: calc(0.5rem + 2.5vw);
+}
+
+
+
+#headername{
+   margin-top: calc(30px + 5vh);
+    padding-bottom: 3vh;
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+
+#profilepic{
+    margin-right: auto;
+    margin-left: auto;
+    height: 40vh;
+    width: 40vh;
+}
+#aboutme{
+    text-align: center;
+    justify-content: center;
+
+}
+
+#aboutmecolumns{
+    padding-top: 3vh;
+    text-align: left;
+
+
+
+}
+
+#looimage {
+
+
+    width: 100%;
+    height:20vw;
+    object-fit: cover;
+
+}
+
+
+#myexperience>.row>.col-md>.card>*{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#myexperience>.row>.col-md>.card{
+    text-align: center;
+    margin-top: 3vh;
+}
+
+#myprojects>h1{
+    margin-bottom: 4vh;
+}
+
+/*put margin on aboutme columns*/
+#aboutmecolumns>.col-lg>.card{
+    margin-bottom: 3vh;
+}
+
+
+#mycarousel{
+
+    padding-right: 10vw;
+    padding-left: 10vw;
+
+    text-align: center;
+}
+
+
+#mycarousel>.carousel-inner>.carousel-item>.card>.card-img-top{
+    width: 100%;
+    height:30vw;
+    object-fit: cover;
+}
+
+#mycarousel>.carousel-inner>.carousel-item>.card>*{
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+#mycarousel>.carousel-inner>.carousel-item>.card{
+
+    padding-bottom: 5vh;
+
+}
+
+#contactme{
+    text-align: center;
+}
+
+#contactme>a{
+    display: inline-block;
+
+}
+
+#contactme>a>i{
+    font-size: 48px;
+}
+
+
+/*Everything past here is colors and stuff*/
+body{
+    background-color: #EFEFEF;
+}
+
+#headername{
+    text-decoration: underline;
+    text-decoration-color: #caebf2;
+}
+
+
+/*navbar logo, text, and borders*/
+#my_navbar{
+    background-color: #a9a9a9;
+}
+
+.navbar-brand{
+    color: navy;
+    font-weight: bold;
+}
+
+#targetnavbar>ul>li>a{
+    color: black;
+    font-weight: bold;
+}
+
+.fa-bars{
+    color: navy;
+    font-weight: bold;
+}
+
+.nav-item{
+    border-bottom: 2px solid darkslategray;/*underline style*/
+}
+
+
+/*all cards in all other sections*/
+.card{
+    background-color: #caebf2;
+}
+
+
+
+#profilepic{
+    border: 2px solid #caebf2;
+}
+
