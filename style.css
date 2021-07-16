@@ -165,13 +165,20 @@ body{
     background-color: #a9a9a9;
 }
 
+
+
 .navbar-brand{
     color: navy;
     font-weight: bold;
 }
 
-#targetnavbar>ul>li>a{
-    color: black;
+#targetnavbar>ul>li>a, #navicon{
+    color: navy;
+    font-weight: bold;
+}
+
+#targetnavbar>ul>li>a:focus, .navbar-brand:focus, #navicon:focus, #targetnavbar>ul>li>a:hover, .navbar-brand:hover, #navicon:hover{
+    color: #003aff;
     font-weight: bold;
 }
 
